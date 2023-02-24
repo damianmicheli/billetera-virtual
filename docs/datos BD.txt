@@ -1,0 +1,9 @@
+credenciales usuario base de datos:
+
+user: grupo2
+password: BEgrupo2
+ROL: DBA
+
+nombre de la base de datos:
+
+billetera_virtual
