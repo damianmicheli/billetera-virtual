@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "ae0d80f5-8c2d-4bcb-b724-435f384f9c45",
+		"name": "Billetera Virtual",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1634530"
+	},
+	"item": [
+		{
+			"name": "Alta de Customer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idType\": \"DNI\",\r\n    \"idNum\": 27123456,\r\n    \"firstName\": \"Damian\",\r\n    \"lastName\": \"Micheli\",\r\n    \"gender\": \"Masculino\",\r\n    \"birthdate\": \"1980-04-04\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.0.7:55826/customer",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"0",
+						"7"
+					],
+					"port": "55826",
+					"path": [
+						"customer"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
