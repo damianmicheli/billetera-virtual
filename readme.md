@@ -23,3 +23,14 @@
   - eureka-server
   - api-customer
   - api-wallet
+
+## Estructura de carpetas del proyecto
+### 1. Carpetas de microservicios
+- **api-customer**: Microservicio de clientes de la aplicación.
+- **api-wallet**: Microservicio de la billetera de la aplicación.
+- **config-server**: Servidor de Spring Cloud Config para centralizar todas las configuraciones.
+- **eureka-server**: Servidor de Eureka, para implementar el patron Service Discovery (un catalogo de servicios activos)
+### 2. Otras carpetas
+- **docs**: Documentación general (Consignas del TP, configuración de DB, etc.)
+- **initializr**: Todos los templates utilizados, generados en https://start.spring.io/, con captura de pantalla de cada configuración. 
+- **postman**: Export de los test de Postman.
